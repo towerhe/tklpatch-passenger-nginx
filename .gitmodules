@@ -1,3 +1,0 @@
-[submodule "patches/2_ree"]
-	path = patches/2_ree
-	url = git@github.com:towerhe/tklpatch-ree.git

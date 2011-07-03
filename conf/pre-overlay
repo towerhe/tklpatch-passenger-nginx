@@ -19,6 +19,5 @@ apt-get update
 
 # Install passenger and nginx
 install libcurl4-openssl-dev
-source /usr/local/rvm/environments/default
-gem install passenger --no-ri --no-rdoc
-passenger-install-nginx-module
+/usr/bin/env gem install passenger --no-ri --no-rdoc
+/usr/bin/env ruby -S passenger-install-nginx-module --auto --auto-download --prefix=/usr/local/nginx

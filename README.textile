@@ -3,11 +3,17 @@ h3. Usage:
 *Init and update submodules*
 
   $git clone http://github.com/towerhe/tklpatch-passenger-nginx.git
+
   $cd tklpatch-passenger-nginx
+
   $git submodule init
+
   $git submodule update
+
   $cd patches/1_ree
+
   $git submodule init
+
   $git submodule update
 
 *Apply this patch*
